@@ -2,7 +2,7 @@
     "name": "onefiniteloop-ghost",
     "description": "Finite Loop customized theme",
     "demo": "https://www.onefiniteloop.io",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "engines": {
         "ghost": ">=2.0.0",
         "ghost-api": "v2"
@@ -37,7 +37,9 @@
         "type": "git",
         "url": "https://github.com/TryGhost/Casper.git"
     },
-    "keywords": ["ghost-theme"],
+    "keywords": [
+        "ghost-theme"
+    ],
     "devDependencies": {
         "@tryghost/release-utils": "0.3.2",
         "autoprefixer": "9.5.1",
