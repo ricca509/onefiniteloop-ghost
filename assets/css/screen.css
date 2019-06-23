@@ -74,7 +74,7 @@ body {
 /* Centered content container blocks */
 .inner {
     margin: 0 auto;
-    max-width: 1040px;
+    max-width: 960px;
     width: 100%;
 }
 
@@ -112,7 +112,7 @@ body {
     position: relative;
     padding-top: 12px;
     padding-bottom: 12px;
-    color: var();
+    color: var(--font);
     background: var(--white);
     background-size: cover;
 }
@@ -653,7 +653,7 @@ make sure this only happens on large viewports / desktop-ish devices.
 .post-full-header {
     margin: 0 auto;
     padding: 6vw 3vw 3vw;
-    max-width: 1040px;
+    max-width: 960px;
     text-align: center;
 }
 @media (max-width: 500px) {
@@ -800,10 +800,10 @@ make sure this only happens on large viewports / desktop-ish devices.
 .post-full-content video {
     display: block;
     margin: 1.5em auto;
-    max-width: 1040px;
+    max-width: 960px;
     height: auto;
 }
-@media (max-width: 1040px) {
+@media (max-width: 960px) {
     .post-full-content img,
     .post-full-content video {
         width: 100%;
@@ -934,7 +934,7 @@ Usage (In Ghost editor):
 }
 
 .post-full-content h1 {
-    margin: 0.5em 0 0.2em 0;
+    margin: 0.5em 0 0.5em 0;
     font-size: 4.6rem;
     font-weight: 700;
 }
@@ -945,7 +945,7 @@ Usage (In Ghost editor):
 }
 
 .post-full-content h2 {
-    margin: 0.5em 0 0.2em 0;
+    margin: 0.5em 0 0.5em 0;
     font-size: 3.6rem;
     font-weight: 700;
 }
@@ -956,7 +956,7 @@ Usage (In Ghost editor):
 }
 
 .post-full-content h3 {
-    margin: 0.5em 0 0.2em 0;
+    margin: 0.5em 0 0.5em 0;
     font-size: 2.8rem;
     font-weight: 700;
 }
@@ -967,7 +967,7 @@ Usage (In Ghost editor):
 }
 
 .post-full-content h4 {
-    margin: 0.5em 0 0.2em 0;
+    margin: 0.5em 0 0.5em 0;
     font-size: 2.8rem;
     font-weight: 700;
 }
@@ -1806,7 +1806,7 @@ Usage (In Ghost editor):
 }
 
 .post-full-content .kg-width-wide .kg-image {
-    max-width: 1040px;
+    max-width: 960px;
 }
 
 .post-full-content .kg-width-full .kg-image {
@@ -1844,7 +1844,7 @@ Usage (In Ghost editor):
 }
 
 
-@media (max-width: 1040px) {
+@media (max-width: 960px) {
     .post-full-content .kg-width-full .kg-image {
         width: 100vw;
     }
@@ -1853,7 +1853,7 @@ Usage (In Ghost editor):
 .kg-gallery-container {
     display: flex;
     flex-direction: column;
-    max-width: 1040px;
+    max-width: 960px;
     width: 100vw;
 }
 
